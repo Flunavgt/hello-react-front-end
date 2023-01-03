@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  
 
 </div>
 
@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello World rails/react one app<a name="about-project"></a>
+# 📖 Hello World rails/react front end<a name="about-project"></a>
 
 
 
-** Hello World webpack is an app created with react as front end and rails as backend in one app that will print a Random welcome message
+Hello World Front end is an app created with React/Redux as frontend to be partnered with API created with Ruby on Rails, both apps will print a Random welcome message you may find the link for backend in the instructions on how to use this app.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -123,7 +123,23 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder :
+git clone https://github.com/Flunavgt/hello-react-front-end.git
+
+run npm i
+
+clone backend app:
+git clone https://github.com/Flunavgt/hello-rails-back-end.git
+
+run bundle install
+run npm i
+create application.yml under config and set Username and password for DB
+run rails db:create
+run rails s
+
+in the terminal for the front end:
+run npm start and when asked for a new port for local host type "y"
+
 
 <!--
 Example commands:
@@ -134,26 +150,8 @@ Example commands:
 ```
 --->
 
-### Install
 
-Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-Git clone the repository. https://github.com/Flunavgt/hello_world_webpack.git
-Run bundle install nad npm i
-Run ./bin/dev and open http://localhost:3000/ in your browser to see the web application running.
 
 
 <!--
